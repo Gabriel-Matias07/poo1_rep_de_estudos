@@ -8,6 +8,8 @@ public class Ex02{
         double altura_homens = 0;
         int sexo;
 
-        for (i = 5; i <= 5; i++)
+        for (i = 5; i < 5; i++){
+            System.out.println("Escolha o sexo da pessoa: ()")
+        }
     }
 }
