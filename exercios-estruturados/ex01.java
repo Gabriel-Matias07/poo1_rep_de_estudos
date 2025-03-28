@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex01 {
+public class Ex01 {
     public static void main(String[] args) {
         // Criando um objeto Scanner e declarando a variável celsius
         Scanner scanner = new Scanner(System.in);
