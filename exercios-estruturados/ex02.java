@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex02 {
+public class ex02 {
     public static void main(String[] args) {
         int qtd_mulheres = 0;
         int qtd_homens = 0;
