@@ -14,8 +14,8 @@ public class ex01 {
         double kelvin = (celsius + 273.15);
 
 
-        System.out.println(celsius + "celsius em fahrenheit é: " + fahrenheit);
-        System.out.println(celsius + "celsius em kelvin é: " + kelvin);
+        System.out.println(celsius + " celsius em fahrenheit é: " + fahrenheit);
+        System.out.println(celsius + " celsius em kelvin é: " + kelvin);
 
 
     }
