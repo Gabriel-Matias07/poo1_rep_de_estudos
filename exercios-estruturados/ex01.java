@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex01 {
     public static void main(String[] args) {
-        // Criando um objeto Scanner e declarando a variável celsius
+        
         Scanner scanner = new Scanner(System.in);
 
         // Solicitando a temperatura em Celsius
