@@ -7,7 +7,6 @@ public class Ex01 {
         System.out.print("Digite uma temperatura em Celsius: ");
         double celsius = scanner.nextDouble();
 
-        // Declarando as fórmulas
         double fahrenheit = celsius * 1.8 + 32;
         double kelvin = celsius + 273.15;
 
