@@ -13,7 +13,6 @@ public class Ex01 {
         System.out.println(celsius + " Celsius em Fahrenheit é: " + fahrenheit);
         System.out.println(celsius + " Celsius em Kelvin é: " + kelvin);
 
-        // Fechando o scanner
         scanner.close();
     }
 }
