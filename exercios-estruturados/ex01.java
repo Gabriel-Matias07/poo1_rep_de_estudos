@@ -10,7 +10,6 @@ public class Ex01 {
         double fahrenheit = celsius * 1.8 + 32;
         double kelvin = celsius + 273.15;
 
-        // Mostrando os resultados
         System.out.println(celsius + " Celsius em Fahrenheit é: " + fahrenheit);
         System.out.println(celsius + " Celsius em Kelvin é: " + kelvin);
 
