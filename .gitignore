@@ -1,13 +1,80 @@
-# Ignorar arquivos compilados Java
+# Compilação Java
 *.class
+*.jar
+*.war
+*.ear
 
-# Default ignored files
-/shelf/
-/.idea/workspace.xml
+# Logs
+*.log
 
-# Editor-based HTTP Client requests
-/httpRequests/
+# IDEs
+## IntelliJ
+.idea/
+*.iml
+out/
 
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+## Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VSCode
+.vscode/
+
+# Arquivos temporários de sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos temporários em geral
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Maven
+target/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+gradle-app.iml
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Arquivos de teste (opcional)
+test-output/
+
+# Arquivos de backup
+*~
+*.orig
+*.rej
+
+# Arquivos gerados pelo compilador Javadoc
+doc/
+
+# Arquivos de cobertura de código
+jacoco.exec
+
+# Arquivos de banco H2 ou SQLite usados localmente
+*.db
+*.h2.db
+*.mv.db
+
+# Arquivos pessoais
+*.env
+.env.*
